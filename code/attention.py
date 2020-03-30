@@ -20,7 +20,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='0'
 outfile = 'output_attention.txt'
 
 N_filename = '../pickle_data/JS_non_terminal.pickle'
-T_filename = '../pickle_data/JS_terminal_50k_whole.pickle'
+T_filename = '../pickle_data/JS_terminal_1k_whole.pickle'
 
 flags = tf.flags
 flags.DEFINE_string("save_path", None, #'./logs/modelT0A'

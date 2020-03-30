@@ -1,5 +1,14 @@
 # neuralCodeCompletion                                                                                              
 The implementation of the IJCAI 2018 paper: Code Completion with Neural Attention and Pointer Networks
+
+## Environment installation
+In order to setup reproduction environment use those commands (Linux/Mac):
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
 ## Descriptions for the directories
 ### code
 * myModel_commented.py: a good commented example for our main model part, i.e., pointer mixture network.
